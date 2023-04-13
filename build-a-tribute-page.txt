@@ -1,0 +1,87 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tribute to Winston Churchill</title>
+  </head>
+  <body>
+    <main id="main">
+      <div>
+      <header>
+        <h1 id="title">Sir Winston S. Churchill</h1>
+      </header>
+      </div>
+      <div id="img-div" class="img-div">
+        <img id="image" class="img" src="https://upload.wikimedia.org/wikipedia/commons/9/9c/Sir_Winston_S_Churchill.jpg">
+        <figcaption id="img-caption">Portrait by American-Canadian photographer Yosuf Karsh in 1941, titled "The Roaring Lion," taken in Ottowa, Ontario, Canada</figcaption>
+      </div>
+      <div id="tribute-info">
+        <h2>A (very) brief timeline of Churchill's life</h2>
+        <p>
+          <ul>
+            <li>Born November 30, 1874 in Oxfordshire, England</li>
+            <li>Accepted at the Royal Military Academy, Sandhurst, in 1893 (on his third try)</li>
+            <li>Stationed in India in early career; left in 1899 to pursue politics </li>
+            <li>Became member of parliament at age 25</li>
+            <li>Was Prime Minister during WWII</li>
+            <li>Was a prolific writer of both fiction and non-fiction</li>
+            <li>Painted under the pseudonym Charles Morin</li>
+            <li>Granted honorary citizenship by the U.S.</li>
+            <li>Christened in the Church of England but became agnostic</li>
+            <li>Died January 24, 1965, following a stroke</li>
+          </ul>
+        </p>
+      </div>
+      <div>
+        <a href="https://en.wikipedia.org/wiki/Winston_Churchill" id="tribute-link" target="_blank">Read more about Winston Churchill's life and accomplishments.</a>
+      </div>
+    </main>
+  </body>
+  <footer></footer>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+header {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 32px;
+  background-color: #0a0a23;
+  color: #fff;
+  border-bottom: 4px solid #fdb347;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 10px ridge #fdb347;
+  padding: 5px;
+  margin: 10px;
+  align-content: center;
+  object-fit: cover;
+}
+
+** end of undefined **
+
